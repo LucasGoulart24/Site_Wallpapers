@@ -120,6 +120,8 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .wallpaper{
@@ -164,10 +166,12 @@ body{
 /*-----Redes-----*/
 .redes{
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: #1a1a1a;
 }
 
 /*-----Icone-----*/
@@ -176,6 +180,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .icone i{
@@ -187,7 +192,27 @@ body{
     background-color: #000000;
     color: #ffffff;
     font-size: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
+}
+
+/*-----Links-----*/
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links a{
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+
+.links a:hover{
+    color: dodgerblue;
+    text-decoration: underline;
 }
 
 /*-----Copyright-----*/
